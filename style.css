@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: gray;
+}
+
+h1 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#texte {
+    height: 40px;
+    width: 250px;
+    font-size: 1.2rem;
+}
+
+#croissant {
+    height: 40px;
+    width: 150px;
+    font-size: 1.2rem;
+}
+
+
+/* DIV */
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 400px;
+    gap: 3rem;
+    margin: 10px;
+}
+
+.card{
+    width: 300px;
+}
+
+.cards img {
+    height: 250px;
+    border-radius: 20px;
+}
+
+.cards p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+            /* line-clamp: 4;  */
+    -webkit-box-orient: vertical
+}
+
+
